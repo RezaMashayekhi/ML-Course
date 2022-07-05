@@ -6,7 +6,7 @@ The final project of the ML course I had at UofA in 2021.
 
 Although people may appreciate accessing news on almost every platform, each technology has its downsides. Explicitly speaking, we have seen many internet users who tend to release "Fake Disaster News" in their personal or public web pages (e.g., once in a while, you can see a non-logical trend on Twitter that doesn't make sense in any way). Disasters are considered emergencies and demand high-priority help from the government and people. Consequently, it would be valuable to have a classifier that can easily differentiate between fake vs. real disaster news. In this regard, we've tried to implement several machine learning models to solve the problem.
 
-This project was a group project. I implemented the Perceptron model for this project in two ways. One from scratch and without using a pre-existing model in libraries, and the other one by using sequential models in Keras.
+This project was a group project. I implemented the Perceptron model for this project in two ways: one from scratch and without using a pre-existing model in libraries, and the other one by using a sequential model in Keras.
 
 The model was trained with different learning rates from 0.05 to 3, and was tested on the validation set. The learning rate 1.8 resulted in a higher accuracy on the validation set. The following figure is showing accuracies for different learning rates.
 
